@@ -1,0 +1,4 @@
+eventemitter
+gevent
+steamclient
+protobuf==3.20
