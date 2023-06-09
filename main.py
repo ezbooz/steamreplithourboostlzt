@@ -23,7 +23,7 @@ def ping():
   while True:
     logging.info("Пингуем сервер")
     try:
-      r = requests.get("ССЫЛКА на этот сервер") ####
+      r = requests.get("https://ССЫЛКА на этот сервер") ####
       r.raise_for_status()
     except requests.exceptions.RequestException as e:
       logging.error(f"Ошибка при пинге сервера: {e}")
